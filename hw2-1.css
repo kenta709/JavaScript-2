@@ -1,0 +1,38 @@
+.container {
+    margin-top: 30px;
+    width:400px
+}
+li {
+    list-style-type: none;
+}
+
+.time-count ul {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.time-count li {
+    font-size: 30px;
+}
+
+.buttons ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons li {
+    display: block;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#stop,#reset{
+    opacity: 0.5;
+    pointer-events: none;
+}
